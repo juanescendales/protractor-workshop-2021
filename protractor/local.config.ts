@@ -14,5 +14,4 @@ export const config: Config = {
     reporter();
     browser.manage().timeouts().implicitlyWait(0);
   },
-
 };
