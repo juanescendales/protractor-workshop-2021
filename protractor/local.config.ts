@@ -9,6 +9,7 @@ export const config: Config = {
   jasmineNodeOpts: {
     defaultTimeoutInterval: 120000,
   },
+
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
@@ -16,10 +17,10 @@ export const config: Config = {
       prefs: { credentials_enable_service: false },
     },
   },
+
   onPrepare: () => {
     browser.ignoreSynchronization = true;
     reporter();
     browser.manage().timeouts().implicitlyWait(0);
   },
-
 };

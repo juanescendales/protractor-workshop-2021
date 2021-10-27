@@ -14,7 +14,6 @@ const reporter = () => {
       displayStacktrace: StacktraceOption.PRETTY,
     },
   }));
-
   jasmine.getEnv().addReporter(AwesomeReport.getReport(awsomeReportConfig));
 };
 
