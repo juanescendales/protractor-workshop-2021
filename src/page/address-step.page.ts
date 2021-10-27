@@ -2,7 +2,7 @@ import {
   $, ElementFinder, ExpectedConditions as EC, browser,
 } from 'protractor';
 
-export class AdressStepPage {
+export class AddressStepPage {
   private procceedToCheckOutButton: ElementFinder;
 
   constructor() {
